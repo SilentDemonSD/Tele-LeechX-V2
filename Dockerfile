@@ -1,4 +1,4 @@
-FROM 412314/mltb:heroku
+FROM codewithweeb/weebzone:stable
 
 RUN mkdir ./app
 RUN chmod 777 ./app
