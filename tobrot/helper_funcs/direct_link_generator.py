@@ -582,7 +582,7 @@ def gdtot(url: str) -> str:
         'size': info[0],
         'date': info[1]
     }
-    new_gdtot = requests.get("https://new.gdtot.org/").url
+    new_gdtot = requests.get("https://new3.gdtot.cfd/").url
 
     info['src_url'] = url
     res = client.get(f"{new_gdtot}dld?id={url.split('/')[-1]}")
